@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<fadeto step=".1" r="0" g="0" b="0">1</fadeto>
+	<warp x="3" y="7">office_001/office_001</warp>
+	<fadefrom step=".1" r="0" g="0" b="0">1</fadefrom>
+</root>

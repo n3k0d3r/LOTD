@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<nif has="Prison_Key">
+		<message from="this">Locked...</message>
+	</nif>
+	<if has="Prison_Key">
+		<retile x="16" y="0" newx="21" newy="0" overlay="yes">this</retile>
+		<reperm x="16" y="0" perm="Open" overlay="yes">this</reperm>
+		<reevent x="16" y="0" throw="Stand" script="hallway_001/scripts/warp_3">this</reevent>
+		<message>Door unlocked with Prison Key.</message>
+	</if>
+</root>

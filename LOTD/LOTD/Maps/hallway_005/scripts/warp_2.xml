@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<fadeto step=".1" r="0" g="0" b="0">1</fadeto>
+	<warp x="2" y="3">cell_004/cell_004</warp>
+	<fadefrom step=".1" r="0" g="0" b="0">1</fadefrom>
+</root>

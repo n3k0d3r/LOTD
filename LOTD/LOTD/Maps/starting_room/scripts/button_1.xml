@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<fadeto r="0" g="0" b="0" step="5">0</fadeto>
+	<cutscene from="Joseph" speaker="Joseph" audio="Joseph/Joseph_This_2">This is it... Are you guys ready?</cutscene>
+	<cutscene from="Joseph" to="Thomas" speaker="Thomas" audio="Thomas/Thomas_Ready_1">I know I am.</cutscene>
+	<cutscene from="Grayson" to="Thomas" speaker="Grayson" audio="Grayson/Grayson_Same-1">Same here.</cutscene>
+	<cutscene from="Grayson" to="Aaron" speaker="Aaron" audio="Aaron/Aaron_Remind_3">So we go in, get him, and get out?</cutscene>
+	<cutscene from="Thomas" to="Aaron" speaker="Thomas" audio="Thomas/Thomas_Try_1">That's the plan.</cutscene>
+	<cutscene from="Thomas" to="Aaron" speaker="Aaron" audio="Aaron/Aaron_Sorry_1">Sorry if I seem a little nervous, we just haven't done anything like this in a long time.</cutscene>
+	<cutscene from="Grayson" to="Aaron" speaker="Grayson" audio="Grayson/Grayson_Chuckle">We haven't done much of anything in a long time.</cutscene>
+	<cutscene from="Grayson" to="Joseph" speaker="Joseph" audio="Joseph/Joseph_Ready_2">Alright, follow my lead.</cutscene>
+	<cutscene from="Aaron" speaker="Aaron" audio="Aaron/Aaron_Sure_2">Shouldn't we at least go over the plan one more time?</cutscene>
+	<cutscene from="Aaron" speaker="Aaron" audio="Aaron/Aaron_Wait_1">It's no use... Hey wait for me!</cutscene>
+	<fadefrom r="0" g="0" b="0" step=".1">1</fadefrom>
+	<message from="Aaron">Alright we need to find him before those security guards know we're here... It certainly has been a while since we've done something this big.</message>
+	<message from="Aaron">If you need any help just make sure to ask and I can pull up the records of how we pulled off stunts like this so long ago.</message>
+	<reevent x="0" y="4" throw="None" script="nil">this</reevent>
+	<shove>right</shove>
+</root>

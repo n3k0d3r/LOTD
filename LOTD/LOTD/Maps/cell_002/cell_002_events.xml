@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<map>
+  <overlayset x="0" y="0">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Open</perms>
+    <event throw="None">nil</event>
+  </overlayset>
+  <overlayset x="1" y="0">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Open</perms>
+    <event throw="None">nil</event>
+  </overlayset>
+  <overlayset x="2" y="0">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Open</perms>
+    <event throw="None">nil</event>
+  </overlayset>
+  <overlayset x="3" y="0">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Open</perms>
+    <event throw="None">nil</event>
+  </overlayset>
+  <overlayset x="4" y="0">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Open</perms>
+    <event throw="None">nil</event>
+  </overlayset>
+  <overlayset x="0" y="1">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Open</perms>
+    <event throw="None">nil</event>
+  </overlayset>
+  <overlayset x="1" y="1">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Open</perms>
+    <event throw="None">nil</event>
+  </overlayset>
+  <overlayset x="2" y="1">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Open</perms>
+    <event throw="None">nil</event>
+  </overlayset>
+  <overlayset x="3" y="1">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Open</perms>
+    <event throw="None">nil</event>
+  </overlayset>
+  <overlayset x="4" y="1">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Open</perms>
+    <event throw="None">nil</event>
+  </overlayset>
+  <overlayset x="0" y="2">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Open</perms>
+    <event throw="None">nil</event>
+  </overlayset>
+  <overlayset x="1" y="2">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Open</perms>
+    <event throw="None">nil</event>
+  </overlayset>
+  <overlayset x="2" y="2">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Open</perms>
+    <event throw="None">nil</event>
+  </overlayset>
+  <overlayset x="3" y="2">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Open</perms>
+    <event throw="None">nil</event>
+  </overlayset>
+  <overlayset x="4" y="2">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Open</perms>
+    <event throw="None">nil</event>
+  </overlayset>
+  <overlayset x="0" y="3">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Open</perms>
+    <event throw="None">nil</event>
+  </overlayset>
+  <overlayset x="1" y="3">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Open</perms>
+    <event throw="None">nil</event>
+  </overlayset>
+  <overlayset x="2" y="3">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Open</perms>
+    <event throw="None">nil</event>
+  </overlayset>
+  <overlayset x="3" y="3">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Open</perms>
+    <event throw="None">nil</event>
+  </overlayset>
+  <overlayset x="4" y="3">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Open</perms>
+    <event throw="None">nil</event>
+  </overlayset>
+  <overlayset x="0" y="4">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Open</perms>
+    <event throw="None">nil</event>
+  </overlayset>
+  <overlayset x="1" y="4">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Open</perms>
+    <event throw="None">nil</event>
+  </overlayset>
+  <overlayset x="2" y="4">
+    <tilex>21</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+    <event throw="Stand">cell_002/scripts/warp_1</event>
+  </overlayset>
+  <overlayset x="3" y="4">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Open</perms>
+    <event throw="None">nil</event>
+  </overlayset>
+  <overlayset x="4" y="4">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Open</perms>
+    <event throw="None">nil</event>
+  </overlayset>
+</map>

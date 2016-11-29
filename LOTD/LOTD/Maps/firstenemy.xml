@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<nif flagged="First_Enemy" has="Paul">
+		<message from="Aaron">Looks like we won't be able to do this as stealthy as we planned. With their men down like this, no doubt more troops will be on our tail... Let's hurry and get this over with!</message>
+		<flag>First_Enemy</flag>
+	</nif>
+	<if flagged="Boss_Fought">
+		<fadeto r="0" g="0" b="0" step=".1">10</fadeto>
+		<cutscene from="Barrin" to="Joseph" speaker="Barrin">How'd...Low-lifes like you... Beat me?</cutscene>
+		<cutscene from="Ajax" to="Joseph" speaker="Ajax">It's... Not over yet!</cutscene>
+		<cutscene from="Joseph" speaker="Joseph">They're down! Let's get out of here. Grayson you drive!</cutscene>
+		<cutscene from="Joseph" to="Grayson" speaker="Grayson">Got it!</cutscene>
+		<cutscene from="Ajax" to="Barrin" speaker="Ajax">They're getting away! Pull yourself together Barrin, we can't let them get away from us!</cutscene>
+		<fadefrom r="0" g="0" b="0" step=".1">10</fadefrom>
+		<flag>Prison_Finish</flag>
+	</if>
+</root>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<if has="Prison_Key">
+		<message from="this">Papers... They're redacted, I can barely make out what they say.</message>
+		<message from="this">"...Cataclysm's Eve...symbols of virtue...sword he retrieves...Keeping the Knight's line true."</message>
+		<message from="this">...What could it mean?</message>
+		<message from="this">Gah, it doesn't matter. Back to the mission at hand.</message>
+	</if>
+	<nif has="Prison_Key">
+		<give>Prison_Key</give>
+		<message from="Aaron">Awesome, we've found them...</message>
+		<message from="Grayson">Far be it from this militia's rules to leave this information lying around... I suspect a trap.</message>
+		<message from="Thomas">How could they have known we were coming?</message>
+		<message from="Grayson">Not us exactly, but someone must have suspected Christians would come to rescue their captive pastor... Let's just, use caution.</message>
+	</nif>
+</root>

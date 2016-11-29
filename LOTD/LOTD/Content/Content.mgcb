@@ -1,0 +1,1011 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/Windows
+/intermediateDir:obj/Windows
+/platform:Windows
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin Assets/16-10/uidialog.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/16-10/uidialog.png
+
+#begin Assets/16-10/uisaves.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/16-10/uisaves.png
+
+#begin Assets/16-9/uicutscene.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/16-9/uicutscene.png
+
+#begin Assets/16-9/uidialog.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/16-9/uidialog.png
+
+#begin Assets/16-9/uisaves.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/16-9/uisaves.png
+
+#begin Assets/4-3/uidialog.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/4-3/uidialog.png
+
+#begin Assets/4-3/uisaves.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/4-3/uisaves.png
+
+#begin Assets/full/Aaron.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/full/Aaron.png
+
+#begin Assets/full/Ajax.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/full/Ajax.png
+
+#begin Assets/full/Barrin.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/full/Barrin.png
+
+#begin Assets/full/Grayson.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/full/Grayson.png
+
+#begin Assets/full/Joseph.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/full/Joseph.png
+
+#begin Assets/full/Paul.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/full/Paul.png
+
+#begin Assets/full/Thomas.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/full/Thomas.png
+
+#begin Assets/message/Aaron.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/message/Aaron.png
+
+#begin Assets/message/Ajax.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/message/Ajax.png
+
+#begin Assets/message/Barrin.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/message/Barrin.png
+
+#begin Assets/message/Grayson.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/message/Grayson.png
+
+#begin Assets/message/Joseph.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/message/Joseph.png
+
+#begin Assets/message/Paul.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/message/Paul.png
+
+#begin Assets/message/Thomas.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/message/Thomas.png
+
+#begin Assets/Aaron.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/Aaron.png
+
+#begin Assets/betasprites.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/betasprites.png
+
+#begin Assets/Grayson.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/Grayson.png
+
+#begin Assets/Joseph.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/Joseph.png
+
+#begin Assets/logo.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/logo.png
+
+#begin Assets/Paul.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/Paul.png
+
+#begin Assets/pixel.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/pixel.png
+
+#begin Assets/Thomas.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/Thomas.png
+
+#begin Assets/tiles.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Assets/tiles.png
+
+#begin Audio/Aaron/Aaron_Chuckle_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Aaron/Aaron_Chuckle_1.wav
+
+#begin Audio/Aaron/Aaron_Chuckle_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Aaron/Aaron_Chuckle_2.wav
+
+#begin Audio/Aaron/Aaron_Good_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Aaron/Aaron_Good_1.wav
+
+#begin Audio/Aaron/Aaron_Good_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Aaron/Aaron_Good_2.wav
+
+#begin Audio/Aaron/Aaron_Great_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Aaron/Aaron_Great_1.wav
+
+#begin Audio/Aaron/Aaron_Great_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Aaron/Aaron_Great_2.wav
+
+#begin Audio/Aaron/Aaron_Great_3.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Aaron/Aaron_Great_3.wav
+
+#begin Audio/Aaron/Aaron_Oh_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Aaron/Aaron_Oh_1.wav
+
+#begin Audio/Aaron/Aaron_Oh_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Aaron/Aaron_Oh_2.wav
+
+#begin Audio/Aaron/Aaron_Oh_3.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Aaron/Aaron_Oh_3.wav
+
+#begin Audio/Aaron/Aaron_Remind_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Aaron/Aaron_Remind_2.wav
+
+#begin Audio/Aaron/Aaron_Remind_3.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Aaron/Aaron_Remind_3.wav
+
+#begin Audio/Aaron/Aaron_Riot_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Aaron/Aaron_Riot_1.wav
+
+#begin Audio/Aaron/Aaron_Riot_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Aaron/Aaron_Riot_2.wav
+
+#begin Audio/Aaron/Aaron_Riot_3.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Aaron/Aaron_Riot_3.wav
+
+#begin Audio/Aaron/Aaron_Sorry_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Aaron/Aaron_Sorry_1.wav
+
+#begin Audio/Aaron/Aaron_Sorry_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Aaron/Aaron_Sorry_2.wav
+
+#begin Audio/Aaron/Aaron_Sure_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Aaron/Aaron_Sure_1.wav
+
+#begin Audio/Aaron/Aaron_Sure_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Aaron/Aaron_Sure_2.wav
+
+#begin Audio/Aaron/Aaron_Sure_3.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Aaron/Aaron_Sure_3.wav
+
+#begin Audio/Aaron/Aaron_Wait_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Aaron/Aaron_Wait_1.wav
+
+#begin Audio/Aaron/Aaron_Wait_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Aaron/Aaron_Wait_2.wav
+
+#begin Audio/Aaron/Aaron_Wait_3.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Aaron/Aaron_Wait_3.wav
+
+#begin Audio/Aaron/Aaron_What_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Aaron/Aaron_What_1.wav
+
+#begin Audio/Aaron/Aaron_What_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Aaron/Aaron_What_2.wav
+
+#begin Audio/Ajax/Ajax_Dont_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Ajax/Ajax_Dont_1.wav
+
+#begin Audio/Ajax/Ajax_Dont_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Ajax/Ajax_Dont_2.wav
+
+#begin Audio/Ajax/Ajax_Give_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Ajax/Ajax_Give_1.wav
+
+#begin Audio/Ajax/Ajax_Give_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Ajax/Ajax_Give_2.wav
+
+#begin Audio/Ajax/Ajax_Give_3.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Ajax/Ajax_Give_3.wav
+
+#begin Audio/Ajax/Ajax_Give_4.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Ajax/Ajax_Give_4.wav
+
+#begin Audio/Ajax/Ajax_Law_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Ajax/Ajax_Law_1.wav
+
+#begin Audio/Ajax/Ajax_Law_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Ajax/Ajax_Law_2.wav
+
+#begin Audio/Ajax/Ajax_Law_3.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Ajax/Ajax_Law_3.wav
+
+#begin Audio/Ajax/Ajax_Law_4.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Ajax/Ajax_Law_4.wav
+
+#begin Audio/Ajax/Ajax_Law_5.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Ajax/Ajax_Law_5.wav
+
+#begin Audio/Ajax/Ajax_Law_6.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Ajax/Ajax_Law_6.wav
+
+#begin Audio/Ajax/Ajax_Law_7.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Ajax/Ajax_Law_7.wav
+
+#begin Audio/Ajax/Ajax_Law_8.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Ajax/Ajax_Law_8.wav
+
+#begin Audio/Ajax/Ajax_Time_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Ajax/Ajax_Time_1.wav
+
+#begin Audio/Ajax/Ajax_Time_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Ajax/Ajax_Time_2.wav
+
+#begin Audio/Ajax/Ajax_Time_3.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Ajax/Ajax_Time_3.wav
+
+#begin Audio/Barrin/Barrin_How_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Barrin/Barrin_How_1.wav
+
+#begin Audio/Barrin/Barrin_How_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Barrin/Barrin_How_2.wav
+
+#begin Audio/Barrin/Barrin_This_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Barrin/Barrin_This_1.wav
+
+#begin Audio/Barrin/Barrin_This_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Barrin/Barrin_This_2.wav
+
+#begin Audio/Barrin/Barrin_Whatcha_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Barrin/Barrin_Whatcha_1.wav
+
+#begin Audio/Barrin/Barrin_Whatcha_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Barrin/Barrin_Whatcha_2.wav
+
+#begin Audio/Barrin/Barrin_Youre_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Barrin/Barrin_Youre_1.wav
+
+#begin Audio/Barrin/Barrin_Youre_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Barrin/Barrin_Youre_2.wav
+
+#begin Audio/Grayson/Grayson_Chuckle.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Grayson/Grayson_Chuckle.wav
+
+#begin Audio/Grayson/Grayson_Got-1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Grayson/Grayson_Got-1.wav
+
+#begin Audio/Grayson/Grayson_Got-2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Grayson/Grayson_Got-2.wav
+
+#begin Audio/Grayson/Grayson_Great-1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Grayson/Grayson_Great-1.wav
+
+#begin Audio/Grayson/Grayson_Great-2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Grayson/Grayson_Great-2.wav
+
+#begin Audio/Grayson/Grayson_Not-1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Grayson/Grayson_Not-1.wav
+
+#begin Audio/Grayson/Grayson_Not-2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Grayson/Grayson_Not-2.wav
+
+#begin Audio/Grayson/Grayson_Rubber.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Grayson/Grayson_Rubber.wav
+
+#begin Audio/Grayson/Grayson_Same-1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Grayson/Grayson_Same-1.wav
+
+#begin Audio/Grayson/Grayson_Same-2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Grayson/Grayson_Same-2.wav
+
+#begin Audio/Grayson/Grayson_Where-1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Grayson/Grayson_Where-1.wav
+
+#begin Audio/Grayson/Grayson_Where-2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Grayson/Grayson_Where-2.wav
+
+#begin Audio/Joseph/Joseph_Are_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Joseph/Joseph_Are_1.wav
+
+#begin Audio/Joseph/Joseph_Are_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Joseph/Joseph_Are_2.wav
+
+#begin Audio/Joseph/Joseph_Chuckle_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Joseph/Joseph_Chuckle_1.wav
+
+#begin Audio/Joseph/Joseph_Chuckle_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Joseph/Joseph_Chuckle_2.wav
+
+#begin Audio/Joseph/Joseph_Is_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Joseph/Joseph_Is_1.wav
+
+#begin Audio/Joseph/Joseph_Is_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Joseph/Joseph_Is_2.wav
+
+#begin Audio/Joseph/Joseph_Lets_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Joseph/Joseph_Lets_1.wav
+
+#begin Audio/Joseph/Joseph_Lets_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Joseph/Joseph_Lets_2.wav
+
+#begin Audio/Joseph/Joseph_No_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Joseph/Joseph_No_1.wav
+
+#begin Audio/Joseph/Joseph_No_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Joseph/Joseph_No_2.wav
+
+#begin Audio/Joseph/Joseph_Ready_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Joseph/Joseph_Ready_1.wav
+
+#begin Audio/Joseph/Joseph_Ready_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Joseph/Joseph_Ready_2.wav
+
+#begin Audio/Joseph/Joseph_So_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Joseph/Joseph_So_1.wav
+
+#begin Audio/Joseph/Joseph_So_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Joseph/Joseph_So_2.wav
+
+#begin Audio/Joseph/Joseph_Step_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Joseph/Joseph_Step_1.wav
+
+#begin Audio/Joseph/Joseph_Step_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Joseph/Joseph_Step_2.wav
+
+#begin Audio/Joseph/Joseph_This_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Joseph/Joseph_This_1.wav
+
+#begin Audio/Joseph/Joseph_This_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Joseph/Joseph_This_2.wav
+
+#begin Audio/Paul/Paul_Gods_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Paul/Paul_Gods_1.wav
+
+#begin Audio/Paul/Paul_Gods_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Paul/Paul_Gods_2.wav
+
+#begin Audio/Paul/Paul_Gods_3.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Paul/Paul_Gods_3.wav
+
+#begin Audio/Paul/Paul_Gods_4.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Paul/Paul_Gods_4.wav
+
+#begin Audio/Paul/Paul_Old_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Paul/Paul_Old_1.wav
+
+#begin Audio/Paul/Paul_Old_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Paul/Paul_Old_2.wav
+
+#begin Audio/Paul/Paul_Old_3.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Paul/Paul_Old_3.wav
+
+#begin Audio/Paul/Paul_Old_4.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Paul/Paul_Old_4.wav
+
+#begin Audio/Paul/Paul_Old_5.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Paul/Paul_Old_5.wav
+
+#begin Audio/Paul/Paul_Who_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Paul/Paul_Who_1.wav
+
+#begin Audio/Paul/Paul_Who_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Paul/Paul_Who_2.wav
+
+#begin Audio/Paul/Paul_Who_3.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Paul/Paul_Who_3.wav
+
+#begin Audio/Paul/Paul_Who_4.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Paul/Paul_Who_4.wav
+
+#begin Audio/Paul/Paul_Who_5.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Paul/Paul_Who_5.wav
+
+#begin Audio/Paul/Paul_Who_6.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Paul/Paul_Who_6.wav
+
+#begin Audio/Thomas/Thomas_Barrin_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Thomas/Thomas_Barrin_1.wav
+
+#begin Audio/Thomas/Thomas_Barrin_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Thomas/Thomas_Barrin_2.wav
+
+#begin Audio/Thomas/Thomas_Nap_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Thomas/Thomas_Nap_1.wav
+
+#begin Audio/Thomas/Thomas_Nap_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Thomas/Thomas_Nap_2.wav
+
+#begin Audio/Thomas/Thomas_Oh_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Thomas/Thomas_Oh_1.wav
+
+#begin Audio/Thomas/Thomas_Oh_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Thomas/Thomas_Oh_2.wav
+
+#begin Audio/Thomas/Thomas_Ready_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Thomas/Thomas_Ready_1.wav
+
+#begin Audio/Thomas/Thomas_Ready_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Thomas/Thomas_Ready_2.wav
+
+#begin Audio/Thomas/Thomas_Training_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Thomas/Thomas_Training_1.wav
+
+#begin Audio/Thomas/Thomas_Training_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Thomas/Thomas_Training_2.wav
+
+#begin Audio/Thomas/Thomas_Try_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Thomas/Thomas_Try_1.wav
+
+#begin Audio/Thomas/Thomas_Try_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Thomas/Thomas_Try_2.wav
+
+#begin Audio/Thomas/Thomas_What_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Thomas/Thomas_What_1.wav
+
+#begin Audio/Thomas/Thomas_What_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Thomas/Thomas_What_2.wav
+
+#begin Audio/bgm.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/bgm.wav
+
+#begin Fonts/font.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:TextureFormat=Compressed
+/build:Fonts/font.spritefont
+

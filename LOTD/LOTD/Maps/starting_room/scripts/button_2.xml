@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<fadeto r="0" g="0" b="0" step="5">0</fadeto>
+	<cutscene from="Barrin" to="Joseph" speaker="Barrin">Your crusade is over, mercenaries...</cutscene>
+	<cutscene from="Ajax" to="Joseph" speaker="Ajax">We've gotten much stronger than the last time you saw us, Joseph... Not even you and your new friends can beat us.</cutscene>
+	<cutscene from="Aaron" to="Joseph" speaker="Aaron">Joseph, who are these guys?</cutscene>
+	<cutscene from="Aaron" to="Joseph" speaker="Joseph">I can tell you that later, right now we just need to fend these guys off enough so we can get out of here.</cutscene>
+	<cutscene from="Aaron" to="Joseph" speaker="Aaron">Fair enough...</cutscene>
+	<cutscene from="Aaron" to="Joseph" speaker="Joseph">Remember, don't kill them... We just need to get out of here.</cutscene>
+	<cutscene from="Aaron" to="Joseph" speaker="Aaron">Says the guy who's using a sword to attack...</cutscene>
+	<cutscene from="Aaron" to="Thomas" speaker="Thomas">Precise strikes can debilitate a foe without leaving any lasting damage. How the heck do you not kill anyone, Aaron? You're using a gun right?</cutscene>
+	<cutscene from="Aaron" to="Thomas" speaker="Aaron">Riot Dispersion Ammunition...</cutscene>
+	<cutscene from="Aaron" to="Thomas" speaker="Thomas">Huh?</cutscene>
+	<cutscene from="Grayson" to="Thomas" speaker="Grayson">Rubber Bullets...</cutscene>
+	<cutscene from="Grayson" to="Thomas" speaker="Thomas">Oh.</cutscene>
+	<reenemy x="19" y="5" src="Paul" facing="Right" map="this">
+		<enemy>ajax</enemy>
+	</reenemy>
+	<reevent x="19" y="5" throw="None" script="nil">this</reevent>
+	<warp x="19" y="5">starting_room/starting_room</warp>
+	<fadefrom r="0" g="0" b="0" step=".1">1</fadefrom>
+</root>

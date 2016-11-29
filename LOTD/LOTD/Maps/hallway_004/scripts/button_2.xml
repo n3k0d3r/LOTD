@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<if flagged="Cells_Checked">
+		<nif has="Prison_Key">
+			<message from="Joseph">Let's check back where we entered, maybe someone in the office block of this facility left them out.</message>
+		</nif>
+	</if>
+	<nif flagged="Cells_Checked">
+		<message from="Aaron">The door's locked. If it was your standard security console I could hack it on the spot, but I'd need one of my tools for this one.</message>
+		<message from="Joseph">We don't have the time to head back and grab that. Anything you can do to open it.</message>
+		<message from="Aaron">If we have the security codes, sure... Heck, a blind monkey with its hands tied behind its back could open the door with the access codes.</message>
+		<message from="Thomas">I highly doubt that.</message>
+		<message from="Joseph">We'll need to find those codes. Let's check back where we entered, maybe someone in the office block of this facility left them out.</message>
+		<flag>Cells_Checked</flag>
+		<retile x="11" y="0" newx="21" newy="0" overlay="yes">hallway_003/hallway_003</retile>
+		<reperm x="11" y="0" perm="Open" overlay="yes">hallway_003/hallway_003</reperm>
+		<reevent x="11" y="0" throw="Stand" script="hallway_003/scripts/warp_2">hallway_003/hallway_003</reevent>
+	</nif>
+	<if has="Prison_Key">
+		<retile x="16" y="0" newx="21" newy="0" overlay="yes">this</retile>
+		<reperm x="16" y="0" perm="Open" overlay="yes">this</reperm>
+		<reevent x="16" y="0" throw="Stand" script="hallway_004/scripts/warp_3">this</reevent>
+		<message>Door unlocked with Prison Key.</message>
+	</if>
+</root>

@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<map>
+  <mapsize>
+    <mapx>4</mapx>
+    <mapy>24</mapy>
+  </mapsize>
+  <tileset x="0" y="0">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Impassable</perms>
+  </tileset>
+  <tileset x="1" y="0">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="2" y="0">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="3" y="0">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="0" y="1">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="1" y="1">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="2" y="1">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="3" y="1">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="0" y="2">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Impassable</perms>
+  </tileset>
+  <tileset x="1" y="2">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="2" y="2">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="3" y="2">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="0" y="3">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Impassable</perms>
+  </tileset>
+  <tileset x="1" y="3">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="2" y="3">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="3" y="3">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="0" y="4">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Impassable</perms>
+  </tileset>
+  <tileset x="1" y="4">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="2" y="4">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="3" y="4">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="0" y="5">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Impassable</perms>
+  </tileset>
+  <tileset x="1" y="5">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="2" y="5">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="3" y="5">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="0" y="6">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Impassable</perms>
+  </tileset>
+  <tileset x="1" y="6">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="2" y="6">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="3" y="6">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="0" y="7">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Impassable</perms>
+  </tileset>
+  <tileset x="1" y="7">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="2" y="7">
+    <tilex>11</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="3" y="7">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="0" y="8">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Impassable</perms>
+  </tileset>
+  <tileset x="1" y="8">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="2" y="8">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="3" y="8">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="0" y="9">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Impassable</perms>
+  </tileset>
+  <tileset x="1" y="9">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="2" y="9">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="3" y="9">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="0" y="10">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Impassable</perms>
+  </tileset>
+  <tileset x="1" y="10">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="2" y="10">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="3" y="10">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="0" y="11">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Impassable</perms>
+  </tileset>
+  <tileset x="1" y="11">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="2" y="11">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="3" y="11">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="0" y="12">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Impassable</perms>
+  </tileset>
+  <tileset x="1" y="12">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="2" y="12">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="3" y="12">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="0" y="13">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Impassable</perms>
+  </tileset>
+  <tileset x="1" y="13">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="2" y="13">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="3" y="13">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="0" y="14">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Impassable</perms>
+  </tileset>
+  <tileset x="1" y="14">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="2" y="14">
+    <tilex>11</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="3" y="14">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="0" y="15">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Impassable</perms>
+  </tileset>
+  <tileset x="1" y="15">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="2" y="15">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="3" y="15">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="0" y="16">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Impassable</perms>
+  </tileset>
+  <tileset x="1" y="16">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="2" y="16">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="3" y="16">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="0" y="17">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Impassable</perms>
+  </tileset>
+  <tileset x="1" y="17">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="2" y="17">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="3" y="17">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="0" y="18">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Impassable</perms>
+  </tileset>
+  <tileset x="1" y="18">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="2" y="18">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="3" y="18">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="0" y="19">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Impassable</perms>
+  </tileset>
+  <tileset x="1" y="19">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="2" y="19">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="3" y="19">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="0" y="20">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Impassable</perms>
+  </tileset>
+  <tileset x="1" y="20">
+    <tilex>11</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="2" y="20">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="3" y="20">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="0" y="21">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Impassable</perms>
+  </tileset>
+  <tileset x="1" y="21">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="2" y="21">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="3" y="21">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="0" y="22">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Impassable</perms>
+  </tileset>
+  <tileset x="1" y="22">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="2" y="22">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="3" y="22">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="0" y="23">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Impassable</perms>
+  </tileset>
+  <tileset x="1" y="23">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Impassable</perms>
+  </tileset>
+  <tileset x="2" y="23">
+    <tilex>10</tilex>
+    <tiley>0</tiley>
+    <perms>Open</perms>
+  </tileset>
+  <tileset x="3" y="23">
+    <tilex>-1</tilex>
+    <tiley>-1</tiley>
+    <perms>Impassable</perms>
+  </tileset>
+</map>

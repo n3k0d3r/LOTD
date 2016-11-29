@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{70BFAE88-B424-4882-936E-78BA5F258B94}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LOTD</RootNamespace>
+    <AssemblyName>LOTD</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <MonoGameContentBuilderExe>
+    </MonoGameContentBuilderExe>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Windows\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Windows\Release\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MSBuildProgramFiles32)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="OmegaEngine, Version=3.4.0.456, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\OmegaEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Assets\16-10\uidialog.png" />
+    <Content Include="Content\Assets\16-10\uisaves.png" />
+    <Content Include="Content\Assets\16-9\uicutscene.png" />
+    <Content Include="Content\Assets\16-9\uidialog.png" />
+    <Content Include="Content\Assets\16-9\uisaves.png" />
+    <Content Include="Content\Assets\4-3\uidialog.png" />
+    <Content Include="Content\Assets\4-3\uisaves.png" />
+    <Content Include="Content\Assets\Aaron.png" />
+    <Content Include="Content\Assets\betasprites.png" />
+    <Content Include="Content\Assets\full\Aaron.png" />
+    <Content Include="Content\Assets\full\Ajax.png" />
+    <Content Include="Content\Assets\full\Barrin.png" />
+    <Content Include="Content\Assets\full\Grayson.png" />
+    <Content Include="Content\Assets\full\Joseph.png" />
+    <Content Include="Content\Assets\full\Paul.png" />
+    <Content Include="Content\Assets\full\Thomas.png" />
+    <Content Include="Content\Assets\Grayson.png" />
+    <Content Include="Content\Assets\Joseph.png" />
+    <Content Include="Content\Assets\logo.png" />
+    <Content Include="Content\Assets\message\Aaron.png" />
+    <Content Include="Content\Assets\message\Ajax.png" />
+    <Content Include="Content\Assets\message\Barrin.png" />
+    <Content Include="Content\Assets\message\Grayson.png" />
+    <Content Include="Content\Assets\message\Joseph.png" />
+    <Content Include="Content\Assets\message\Paul.png" />
+    <Content Include="Content\Assets\message\Thomas.png" />
+    <Content Include="Content\Assets\Paul.png" />
+    <Content Include="Content\Assets\pixel.png" />
+    <Content Include="Content\Assets\Thomas.png" />
+    <Content Include="Content\Assets\tiles.png" />
+    <Content Include="Content\Audio\Aaron\Aaron_Chuckle_1.wav" />
+    <Content Include="Content\Audio\Aaron\Aaron_Chuckle_2.wav" />
+    <Content Include="Content\Audio\Aaron\Aaron_Good_1.wav" />
+    <Content Include="Content\Audio\Aaron\Aaron_Good_2.wav" />
+    <Content Include="Content\Audio\Aaron\Aaron_Great_1.wav" />
+    <Content Include="Content\Audio\Aaron\Aaron_Great_2.wav" />
+    <Content Include="Content\Audio\Aaron\Aaron_Great_3.wav" />
+    <Content Include="Content\Audio\Aaron\Aaron_Oh_1.wav" />
+    <Content Include="Content\Audio\Aaron\Aaron_Oh_2.wav" />
+    <Content Include="Content\Audio\Aaron\Aaron_Oh_3.wav" />
+    <Content Include="Content\Audio\Aaron\Aaron_Remind_2.wav" />
+    <Content Include="Content\Audio\Aaron\Aaron_Remind_3.wav" />
+    <Content Include="Content\Audio\Aaron\Aaron_Riot_1.wav" />
+    <Content Include="Content\Audio\Aaron\Aaron_Riot_2.wav" />
+    <Content Include="Content\Audio\Aaron\Aaron_Riot_3.wav" />
+    <Content Include="Content\Audio\Aaron\Aaron_Sorry_1.wav" />
+    <Content Include="Content\Audio\Aaron\Aaron_Sorry_2.wav" />
+    <Content Include="Content\Audio\Aaron\Aaron_Sure_1.wav" />
+    <Content Include="Content\Audio\Aaron\Aaron_Sure_2.wav" />
+    <Content Include="Content\Audio\Aaron\Aaron_Sure_3.wav" />
+    <Content Include="Content\Audio\Aaron\Aaron_Wait_1.wav" />
+    <Content Include="Content\Audio\Aaron\Aaron_Wait_2.wav" />
+    <Content Include="Content\Audio\Aaron\Aaron_Wait_3.wav" />
+    <Content Include="Content\Audio\Aaron\Aaron_What_1.wav" />
+    <Content Include="Content\Audio\Aaron\Aaron_What_2.wav" />
+    <Content Include="Content\Audio\Ajax\Ajax_Dont_1.wav" />
+    <Content Include="Content\Audio\Ajax\Ajax_Dont_2.wav" />
+    <Content Include="Content\Audio\Ajax\Ajax_Give_1.wav" />
+    <Content Include="Content\Audio\Ajax\Ajax_Give_2.wav" />
+    <Content Include="Content\Audio\Ajax\Ajax_Give_3.wav" />
+    <Content Include="Content\Audio\Ajax\Ajax_Give_4.wav" />
+    <Content Include="Content\Audio\Ajax\Ajax_Law_1.wav" />
+    <Content Include="Content\Audio\Ajax\Ajax_Law_2.wav" />
+    <Content Include="Content\Audio\Ajax\Ajax_Law_3.wav" />
+    <Content Include="Content\Audio\Ajax\Ajax_Law_4.wav" />
+    <Content Include="Content\Audio\Ajax\Ajax_Law_5.wav" />
+    <Content Include="Content\Audio\Ajax\Ajax_Law_6.wav" />
+    <Content Include="Content\Audio\Ajax\Ajax_Law_7.wav" />
+    <Content Include="Content\Audio\Ajax\Ajax_Law_8.wav" />
+    <Content Include="Content\Audio\Ajax\Ajax_Time_1.wav" />
+    <Content Include="Content\Audio\Ajax\Ajax_Time_2.wav" />
+    <Content Include="Content\Audio\Ajax\Ajax_Time_3.wav" />
+    <Content Include="Content\Audio\Barrin\Barrin_How_1.wav" />
+    <Content Include="Content\Audio\Barrin\Barrin_How_2.wav" />
+    <Content Include="Content\Audio\Barrin\Barrin_This_1.wav" />
+    <Content Include="Content\Audio\Barrin\Barrin_This_2.wav" />
+    <Content Include="Content\Audio\Barrin\Barrin_Whatcha_1.wav" />
+    <Content Include="Content\Audio\Barrin\Barrin_Whatcha_2.wav" />
+    <Content Include="Content\Audio\Barrin\Barrin_Youre_1.wav" />
+    <Content Include="Content\Audio\Barrin\Barrin_Youre_2.wav" />
+    <Content Include="Content\Audio\bgm.wav" />
+    <Content Include="Content\Audio\Grayson\Grayson_Chuckle.wav" />
+    <Content Include="Content\Audio\Grayson\Grayson_Got-1.wav" />
+    <Content Include="Content\Audio\Grayson\Grayson_Got-2.wav" />
+    <Content Include="Content\Audio\Grayson\Grayson_Great-1.wav" />
+    <Content Include="Content\Audio\Grayson\Grayson_Great-2.wav" />
+    <Content Include="Content\Audio\Grayson\Grayson_Not-1.wav" />
+    <Content Include="Content\Audio\Grayson\Grayson_Not-2.wav" />
+    <Content Include="Content\Audio\Grayson\Grayson_Rubber.wav" />
+    <Content Include="Content\Audio\Grayson\Grayson_Same-1.wav" />
+    <Content Include="Content\Audio\Grayson\Grayson_Same-2.wav" />
+    <Content Include="Content\Audio\Grayson\Grayson_Where-1.wav" />
+    <Content Include="Content\Audio\Grayson\Grayson_Where-2.wav" />
+    <Content Include="Content\Audio\Joseph\Joseph_Are_1.wav" />
+    <Content Include="Content\Audio\Joseph\Joseph_Are_2.wav" />
+    <Content Include="Content\Audio\Joseph\Joseph_Chuckle_1.wav" />
+    <Content Include="Content\Audio\Joseph\Joseph_Chuckle_2.wav" />
+    <Content Include="Content\Audio\Joseph\Joseph_Is_1.wav" />
+    <Content Include="Content\Audio\Joseph\Joseph_Is_2.wav" />
+    <Content Include="Content\Audio\Joseph\Joseph_Lets_1.wav" />
+    <Content Include="Content\Audio\Joseph\Joseph_Lets_2.wav" />
+    <Content Include="Content\Audio\Joseph\Joseph_No_1.wav" />
+    <Content Include="Content\Audio\Joseph\Joseph_No_2.wav" />
+    <Content Include="Content\Audio\Joseph\Joseph_Ready_1.wav" />
+    <Content Include="Content\Audio\Joseph\Joseph_Ready_2.wav" />
+    <Content Include="Content\Audio\Joseph\Joseph_So_1.wav" />
+    <Content Include="Content\Audio\Joseph\Joseph_So_2.wav" />
+    <Content Include="Content\Audio\Joseph\Joseph_Step_1.wav" />
+    <Content Include="Content\Audio\Joseph\Joseph_Step_2.wav" />
+    <Content Include="Content\Audio\Joseph\Joseph_This_1.wav" />
+    <Content Include="Content\Audio\Joseph\Joseph_This_2.wav" />
+    <Content Include="Content\Audio\Paul\Paul_Gods_1.wav" />
+    <Content Include="Content\Audio\Paul\Paul_Gods_2.wav" />
+    <Content Include="Content\Audio\Paul\Paul_Gods_3.wav" />
+    <Content Include="Content\Audio\Paul\Paul_Gods_4.wav" />
+    <Content Include="Content\Audio\Paul\Paul_Old_1.wav" />
+    <Content Include="Content\Audio\Paul\Paul_Old_2.wav" />
+    <Content Include="Content\Audio\Paul\Paul_Old_3.wav" />
+    <Content Include="Content\Audio\Paul\Paul_Old_4.wav" />
+    <Content Include="Content\Audio\Paul\Paul_Old_5.wav" />
+    <Content Include="Content\Audio\Paul\Paul_Who_1.wav" />
+    <Content Include="Content\Audio\Paul\Paul_Who_2.wav" />
+    <Content Include="Content\Audio\Paul\Paul_Who_3.wav" />
+    <Content Include="Content\Audio\Paul\Paul_Who_4.wav" />
+    <Content Include="Content\Audio\Paul\Paul_Who_5.wav" />
+    <Content Include="Content\Audio\Paul\Paul_Who_6.wav" />
+    <Content Include="Content\Audio\Thomas\Thomas_Barrin_1.wav" />
+    <Content Include="Content\Audio\Thomas\Thomas_Barrin_2.wav" />
+    <Content Include="Content\Audio\Thomas\Thomas_Nap_1.wav" />
+    <Content Include="Content\Audio\Thomas\Thomas_Nap_2.wav" />
+    <Content Include="Content\Audio\Thomas\Thomas_Oh_1.wav" />
+    <Content Include="Content\Audio\Thomas\Thomas_Oh_2.wav" />
+    <Content Include="Content\Audio\Thomas\Thomas_Ready_1.wav" />
+    <Content Include="Content\Audio\Thomas\Thomas_Ready_2.wav" />
+    <Content Include="Content\Audio\Thomas\Thomas_Training_1.wav" />
+    <Content Include="Content\Audio\Thomas\Thomas_Training_2.wav" />
+    <Content Include="Content\Audio\Thomas\Thomas_Try_1.wav" />
+    <Content Include="Content\Audio\Thomas\Thomas_Try_2.wav" />
+    <Content Include="Content\Audio\Thomas\Thomas_What_1.wav" />
+    <Content Include="Content\Audio\Thomas\Thomas_What_2.wav" />
+    <Content Include="Icon.ico" />
+    <Content Include="Maps\cell_001\cell_001.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\cell_001\cell_001_events.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\cell_001\scripts\warp_1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\cell_002\cell_002.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\cell_002\cell_002_events.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\cell_002\scripts\warp_1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\cell_003\cell_003.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\cell_003\cell_003_events.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\cell_003\scripts\warp_1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\cell_004\cell_004.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\cell_004\cell_004_events.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\cell_004\scripts\button_1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\cell_004\scripts\warp_1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\courtyard_001\courtyard_001.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\courtyard_001\courtyard_001_events.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\courtyard_001\scripts\warp_1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\courtyard_001\scripts\warp_2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\firstenemy.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_001\hallway_001.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_001\hallway_001_events.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_001\scripts\button_1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_001\scripts\button_2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_001\scripts\button_3.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_001\scripts\warp_1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_001\scripts\warp_2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_001\scripts\warp_3.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_001\scripts\warp_4.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_002\hallway_002.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_002\hallway_002_events.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_002\scripts\warp_1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_002\scripts\warp_2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_003\hallway_003.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_003\hallway_003_events.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_003\scripts\button_1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_003\scripts\warp_1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_003\scripts\warp_2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_003\scripts\warp_3.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_004\hallway_004.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_004\hallway_004_events.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_004\scripts\button_1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_004\scripts\button_2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_004\scripts\warp_1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_004\scripts\warp_2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_004\scripts\warp_3.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_004\scripts\warp_4.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_005\hallway_005.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_005\hallway_005_events.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_005\scripts\button_1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_005\scripts\button_2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_005\scripts\warp_1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_005\scripts\warp_2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\hallway_005\scripts\warp_3.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\office_001\office_001.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\office_001\office_001_events.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\office_001\scripts\button_1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\office_001\scripts\warp_1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\starting_room\scripts\button_1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\starting_room\scripts\button_2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\starting_room\scripts\warp_1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\starting_room\starting_room.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\starting_room\starting_room_events.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\storage_001\scripts\warp_1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\storage_001\storage_001.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\storage_001\storage_001_events.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\storage_002\scripts\warp_1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\storage_002\storage_002.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\storage_002\storage_002_events.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OmegaEngine.dll" />
+    <Content Include="savedefault.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\Fonts\font.spritefont" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

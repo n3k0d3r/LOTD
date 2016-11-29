@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<message from="Joseph">Let me guess...</message>
+	<message from="Aaron">Yep.</message>
+	<message from="Thomas">How could we distinguish this from an enemy if we weren't scripted to already know?</message>
+	<message from="Grayson">Guys, focus.</message>
+	<fadeto r="0" g="0" b="0" step=".1">1</fadeto>
+	<cutscene from="Joseph" speaker="Joseph" audio="Joseph/Joseph_Are_2">Are you alright?</cutscene>
+	<cutscene from="Joseph" to="Paul" speaker="Paul" audio="Paul/Paul_Who_3">Yes, thank you... Why have you come here?</cutscene>
+	<cutscene from="Joseph" to="Paul" speaker="Joseph">We're here to get you out of this prison.</cutscene>
+	<cutscene from="Joseph" to="Paul" speaker="Paul" audio="Paul/Paul_Gods_1">Then it is truly God's will for me to be saved.</cutscene>
+	<cutscene from="Joseph" to="Paul" speaker="Joseph" audio="Joseph/Joseph_Chuckle_1">I don't think he would have it any other way...</cutscene>
+	<cutscene from="Joseph" to="Paul" speaker="Joseph">Are you able to run?</cutscene>
+	<cutscene from="Joseph" to="Paul" speaker="Paul" audio="Paul/Paul_Old_3">I don't know why I wouldn't be.</cutscene>
+	<cutscene from="Joseph" to="Aaron" speaker="Aaron" audio="Aaron/Aaron_Good_1">Way to call out someone's age, Joseph.</cutscene>
+	<cutscene from="Joseph" to="Aaron" speaker="Joseph" audio="Joseph/Joseph_Lets_1">Just making sure... Because we've got to get out of here, now and fast!</cutscene>
+	<fadefrom r="0" g="0" b="0" step=".1">1</fadefrom>
+	<retile x="2" y="0" newx="-1" newy="-1" overlay="yes">this</retile>
+	<reperm x="2" y="0" perm="Open" overlay="yes">this</reperm>
+	<reevent x="2" y="0" throw="None" script="nil">this</reevent>
+	<give>Paul</give>
+	<message>Obtained Paul.</message>
+	<reenemy x="5" y="3" src="Paul" facing="Down" map="hallway_005/hallway_005">
+		<enemy>riotTrooperGround</enemy>
+	</reenemy>
+	<reenemy x="2" y="21" src="Paul" facing="Down" map="hallway_002/hallway_002">
+		<enemy>riotTrooperGround</enemy>
+	</reenemy>
+	<reenemy x="19" y="3" src="Paul" facing="Down" map="courtyard_001/courtyard_001">
+		<enemy>riotTrooperGround</enemy>
+	</reenemy>
+	<reevent x="19" y="5" throw="Stand" script="starting_room/scripts/button_2">starting_room/starting_room</reevent>
+</root>

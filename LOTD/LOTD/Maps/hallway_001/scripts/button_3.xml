@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<message from="Joseph">Wh...what? What's the guard doing inside that box?</message>
+	<message from="Aaron">Oh, the developers didn't have the resources for enemy sprites. So he's a box for now.</message>
+	<message from="Joseph">A-alright...</message>
+	<message from="Aaron">If the crowdfunding campaign succeeds on just this, then it will look a lot better.</message>
+	<message from="Thomas">Well, let's just hope it does.</message>
+	<message from="Grayson">Guys, if we're done breaking the fourth wall...</message>
+	<message from="Joseph">Ah, you're right. Let's finish the mission.</message>
+	<reevent x="1" y="2" throw="None" script="nil">this</reevent>
+</root>
