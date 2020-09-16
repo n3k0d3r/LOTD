@@ -7,7 +7,6 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using Microsoft.Xna.Framework.Audio;
-using Microsoft.Xna.Framework.Storage;
 using OmegaEngine;
 
 namespace LOTD
@@ -104,7 +103,7 @@ namespace LOTD
         {
             keyPress = Keyboard.GetState();
             gamePad = GamePad.GetState(PlayerIndex.One);
-            if (keyPress.IsKeyDown(Keys.Escape) || gamePad.Buttons.Back == ButtonState.Pressed) { try { save.DeleteTempMaps(); } catch { } Exit(); }   // Once menus are finished, comment out this and only use for halting
+            if (keyPress.IsKeyDown(Keys.Escape) || gamePad.Buttons.Back == ButtonState.Pressed) { try { if (save != null) { save.DeleteTempMaps(); } } catch { } Exit(); }   // Once menus are finished, comment out this and only use for halting
 
             if (Globals.isBattling)
             {
